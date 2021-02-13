@@ -30,7 +30,7 @@ public class IntroToRandom {
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(_____);
+			 number = ran.nextInt(10);
 			System.out.println(number);
 			
 		}
@@ -49,17 +49,48 @@ public class IntroToRandom {
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			// number = ran.nextInt(_____) + <lowest value>;
+			 number = ran.nextInt(5) + 2;	// generates random number in range 2 to 6
+			 
+			 // ran.nextInt(5) will generate numbers in range 0 to 4  .. if I add 2, I get 2 to 6
+			 
+			 
 			System.out.println(number);
-			
 		}
+
 		// This time, all the values printed should be between 25 and 75.
 
 		
 		/*************  Random integers with an upper and lower (negative) limit  *************/
+		System.out.println("YOUR CODE");
 		
+		// Using the above example, generate 5 random numbers between -10 and 10
+		for (int i=1; i<=5; i++) {
+			number = ran.nextInt(21) + -10;	// where is the random number being saved? in the variable number
+			// number "gets" ("equal sign")
+			System.out.println(number);	//is it number because it equals the random numbers 
+					// if you put double quotes, it is treated as a string lit
+		}
+		System.out.println("YOUR CODE");
 		// Using the above example, generate 5 random numbers between -222 and 88
-
-
+		for (int i=0; i<5; i++) {
+			number = ran.nextInt(311) + -222;
+			System.out.println(number);
+		}
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
