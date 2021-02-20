@@ -7,31 +7,49 @@ package _01_random._5_magic_8_ball;
 import java.util.Random;
 
 public class Magic8Ball {
+	public static void main (String[] args) {
+		Random randomMaker = new Random();
+		// 1. Make a main method that includes all the steps below
+		
+		// you're almost done - next week you can add code to
+		// allow user to ask the magic 8 ball a question for it to respond to 
+		
+		// i'll help you save your work.  good job!
 
-	// 1. Make a main method that includes all the steps below
+		// 2. Get the user to enter a question for the 8 ball to answer
+		// this made the 4 statements get repeated 3 times...
+//		for (int i=1; i<1; i++) {	// this is a loop that repeats 0 times!!!
+			
+			int	number = randomMaker.nextInt(4);
+			// 3. Make a variable and initialize it to a random number.
+			//     ** You will need to make a random object!
+			//     Limit the random numbers to be between 0 and 3
 
-	// 2. Get the user to enter a question for the 8 ball to answer
-	
+			// now do you know what to do in order to print just ONE statement
+			// based on what random number was generated?  would it help to
+			// look back at the program you just finished "validation"?	
 
-	// 3. Make a variable and initialize it to a random number.
-	//     ** You will need to make a random object!
-	//     Limit the random numbers to be between 0 and 3
+			// 4. If the random number is 0
 
-	
-	// 4. If the random number is 0
+			// -- tell the user "Yes"
+			// class is almost over - can i help you clean this up?yes
 
-	// -- tell the user "Yes"
+			if (number == 0) {
+				System.out.println("yes");
+			}
 
-	// 5. If the random number is 1
+			else if (number == 1) {
+				System.out.println("no");
 
-	// -- tell the user "No"
+			}
+			else if (number == 2) {
+				System.out.println("Maybe you should ask Google?");
 
-	// 6. If the random number is 2
 
-	// -- tell the user "Maybe you should ask Google?"
-
-	// 7. If the random number is 3
-
-	// -- write your own answer
-
+			}
+			else if (number == 3) {
+				System.out.println("I don't know");
+			}	
+	//	}
+	}
 }
