@@ -7,15 +7,33 @@
    * If you cannot play sound on this computer, set canPlaySounds to false.
    * If you are not sure, ask your teacher 
    * *****************/
-  boolean canPlaySounds = true;
+  boolean canPlaySounds = false;
 
-int x;
+int x, y; 
+
+// good.  just to review. when you want to use a variable,
+// first you need to "declare" it, meaning state what data type it is,
+// here both x and y are of type 'init'.
+// THEN you need to give the variable a value to store in it, and sometimes
+// you may replace the value later with another value
+// so right now in your program, on what line of code did you give 'y' its first
+// value? yes
 
 void setup() {
     size(800, 200);
     
-    //1. Set the variable named x to 50.
-}
+    //1. Set the variable named x to 50.  
+    x=50;
+    y=100; 
+    // ok now add variable y to line 12 
+    // and on line 12 give y a value that's
+    // halfway down the screen ?  look at the size on line 15
+    
+    // ok good start.  It's better to give y the initial value of 100
+    // in the 'setup' method rather than on line 12
+    
+ }
+
 
 void draw() {
 

@@ -19,7 +19,7 @@ public class SafeCracker {
 	 * *****************/
 	boolean canPlaySounds = true;
 	
-	
+
 	public static void main(String[] args) {
 		new SafeCracker().crackTheSafe();
 	}
@@ -29,8 +29,8 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */		
-		
-		// ok it's time to work on this program
+		// "cheating" let's print out the secret code...
+		System.out.println("Secret is: " +  wekncrzpasfdkjhcfjse);
 		
 		// the guess can be a random number between 0..99 I think ...one moment
 		
@@ -42,17 +42,11 @@ public class SafeCracker {
 		// do a loop - in side the loop call tryCode() first with 0 then 1
 		// then 2 etc until you find the match which is stored in
 		// variable wekncrzpasfdkjhcfjse .... can you try writing the code now?
-		// i'm checking on mariene now ... i think she's stuck...okay
 		Random ran = new Random();
-		for (int i=0; i<99; i++) {
-			//i don't remember how to make a loop inside another
-			//I have to go
-			// sorry i was workign with mariene - she's missed som many
-			// classes lately!// i hope to help you with this code next week
-			// let's save work ok?okay and again sorry the internet is really slow
+		for (int i=0; i<100; i++) {
+			tryCode(9999999 - i);
 		}
 		
-
 	}
 
 	 void tryCode(int guess) {
