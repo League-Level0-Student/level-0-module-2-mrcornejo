@@ -59,9 +59,23 @@
           
       //7.  Use an if statement to check if your distance variable is < the radius of the ellipse
       //    If it is, make a new x AND y for the ellipse, for a new random location on the window
-      //    Hint: Use code like this      x = (int) random(width);
-       
+      //    Hint: Use code like this      x = (int) random(width);  questions??im reading bc im a bit lost
+      // ok, i'm not sure what you're lost about, so let me try to summarize where you are and see if that helps...
+      // when the program runs, every time you click on the circle, it should move to a new random location.
+      // questions so far?no  ok, so you're working on mousePressed() method which is called whenever you click
+      // *anywhere* on the window.  the code in here needs to check if you clicked on the circle, which is
+      // the test that distance variable is < radius of circle.  if that is true, you pick new random values for
+      // x and y, which are used above to draw the circle ... let me show you above ...questions?  did this help?yes
       
+      // good start.  but this code happens *whenever* mouse is clicked ... even when it's no where near the circle!
+      // need help?yes
+      if (distance < (s/2) ) { // only if you are clicking in the circle, where it's size 's' (diameter) divided by 2 is radius
+            // put code in here to give x and y new random values..but this isn't random ....try running the program
+            // each time you click the mouse, it should generate a new random value for x and for y
+            x = (int) random(width);
+            y = (int) random(height);  // check spelling  good!! try it  yeah!!
+            //it saves when you run it right? yes
+      }
     }
     
     /********  This method gives you the number of pixels between the mouse and the x,y point ***********/
