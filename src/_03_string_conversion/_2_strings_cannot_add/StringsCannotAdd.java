@@ -72,6 +72,13 @@ public class StringsCannotAdd {
 			String num4 = "5";
 			// 6) Print the addition of the variables fourAsString, sixAsString, and fiveAsString 
 		
+			// I think you're done with this.  The purpose is to understand that
+			// 1) JOptionPane reads everything in as type 'String'
+			// 2) You can't add "Strings" ... they just glue together
+			// 3) if you want to add, you need to convert to 'int' and then add
+			// Questions??  ready for next program?yes
+			
+		
 			//Did you notice 456 instead of 4 + 6 + 5 = 15?
 
 			// these steps below show that if you really WANT
