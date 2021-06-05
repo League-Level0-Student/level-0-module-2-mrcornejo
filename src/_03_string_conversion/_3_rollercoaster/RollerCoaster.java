@@ -20,7 +20,10 @@ public class RollerCoaster {
 		// your programs...how does the user's answer get saved?
 		String heightToRide = JOptionPane.showInputDialog("height in inches"); // good
 		// this completes step 2
-
+// can i tell you something?yes
+		// roller coaster program - it already made a java file
+		// for you.  the voting program did not.
+		// want me to show you how to set that up?yes
 		// you read in the user's height as a String.  now convert it here to an int
 		
 		// no.  	// 3) Convert heightToRide to heightAsInt using Integer.parseInt();  
