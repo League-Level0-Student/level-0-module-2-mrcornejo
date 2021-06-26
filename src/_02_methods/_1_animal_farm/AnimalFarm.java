@@ -75,9 +75,9 @@ public class AnimalFarm {
 		
 		// if (the animal the user entered is "cow") then call method moo() below
 		// else if (...duck) then call quack() ...etc	
-		/*
+		
 		if (Animal.equals("cow")) { 
-			moo(); 
+			moo(); // here we are calling a method from below
 		} else if (Animal.equals("duck")) {
 			quack();
 		} else if (Animal.equals("dog")) {
@@ -87,7 +87,7 @@ public class AnimalFarm {
 		} else if (Animal.equals("llama")) {
 			llamaScream();
 		}
-		*/
+		
 		// there!
 		
 		// YEEAH!!
