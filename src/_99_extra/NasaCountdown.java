@@ -1,7 +1,9 @@
 
 package _99_extra;
 
- /* NASA wants to shoot a rocket into orbit. 
+import javax.swing.JOptionPane;
+
+/* NASA wants to shoot a rocket into orbit. 
   * Somebody has to do the countdown or the rocket won't launch.
  * 
  * The ground control chief will tell you where to start – then count down to 0. 
@@ -13,6 +15,21 @@ package _99_extra;
 public class NasaCountdown {
 	public static void main(String[] args) throws InterruptedException {
 		// 2. Use a pop-up to ask the user where to start counting from
+		String CountDown = JOptionPane.showInputDialog("where to start counting");
+		// good.  now showInputDialog() is a method and it returns
+		// a String with the user's answer, so we need to store it
+		// in a Strin variable here give he Sring a name any name yes
+		// but something descriptive helps!for example
+		// like spongeBob is not descritive but countdown is
+		// good now one thing is still missing. how do you give
+		// variable CountDown a value?  like lets say i have
+		// variable int x and i want to give it a value 5:
+		
+		//so now if we print out countdown it shows the value the user entered
+		//lets' try that and then save work
+		System.out.println(CountDown);
+// GOOD LET"S CONTINUE HERE NEXT CLASS OK?yes
+		
 
 		// 3. Change the countdown to use the new starting point
 		
